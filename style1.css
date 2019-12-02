@@ -1,0 +1,94 @@
+body{
+  color: black;
+}
+.bg_img{
+    background-image: url("aa.jpg");
+    /* margin-right: 100px; */
+    height: 515px;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+  } 
+
+      h1{
+        /* float: right; */
+        color: rgb(15, 96, 218);
+        line-height: 0px;
+        padding-top: 25px;
+        /* margin-top: 0px; */
+        margin-bottom: 0px;
+      
+      }
+     
+.kotak_palingluar{
+    
+    width: 900px;
+    height: 400px;
+    background-color: gainsboro;
+    margin: -300px auto 0;
+    position: relative;
+    padding: 0px 200px 50px 50px;
+    box-sizing: border-box;
+}
+.TEKS_ALL{
+  padding-top: 30px;
+  line-height: 25px;
+ /* float: right; */
+ /* margin-left: 500px; */
+  
+}
+
+.TEKS_ALL .biodata_title{
+  width: 120px; 
+  line-height: 20px;
+  list-style-type: none;
+  color: rgb(133, 122, 122);
+  font-size: medium;
+  float: left;
+}
+
+.TEKS_ALL .info{
+  color: #1A77D4;
+  width: 120px; 
+  line-height: 20px;
+  margin-left:35px; 
+  /* margin-left: 600px; */
+  /* display: inline; */
+}
+
+.kotak_palingluar .profile_pic{
+    background-image: url("profile.jpg");
+    margin: 50px 100px 50px 0px;
+    width: 200px;
+    height: 300px;
+    background-color: black;
+    background-size: contain;
+    float: left;
+}
+
+
+.kotak_bawah{
+  background-color: #07CB79;
+  height: 75px;
+  width: 900px;
+  position: relative;
+  margin: 0px auto 0px;
+  box-sizing: border-box;
+
+}
+.btn.btn-primary{
+  
+  background-color:  #1A77D4;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 13px;
+    cursor: pointer;
+  
+}
+
+#bot-menu{
+  display: none;
+}
